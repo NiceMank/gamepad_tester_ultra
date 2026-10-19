@@ -1,0 +1,30 @@
+name: gamepad_tester_ultra
+description: >-
+  Gamepad Tester Ultra - Suite professionnelle de diagnostic matériel pour manettes
+  (Android & Desktop : Windows, Linux, macOS). Inclut Visualiseur & Simulateur 3D
+  interactif, Laboratoire Stick Drift & Circularité (Micro-Zoom x15 & Courbe Gamma),
+  Télémétrie Batterie & Énergie avancée, Oscilloscope Polling Rate 120 FPS,
+  Détecteur de Button Chatter, Studio Haptique Dual-Motor et Assistant Guidé.
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Plugin multiplateforme (Android, iOS, Windows, Linux, macOS, Web) par Flame Engine
+  # https://pub.dev/packages/gamepads
+  gamepads: ^0.1.12
+  # Navigation UI à la manette via le système Focus/Intent de Flutter
+  # https://pub.dev/packages/flutter_gamepads
+  flutter_gamepads: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

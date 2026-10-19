@@ -1,0 +1,13 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    invalid_use_of_protected_member: ignore
+    invalid_use_of_visible_for_testing_member: ignore
+    deprecated_member_use: ignore
+
+linter:
+  rules:
+    prefer_const_constructors: true
+    prefer_final_fields: true
+    avoid_print: false
